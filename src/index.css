@@ -12,3 +12,7 @@ body {
 .flexCenter {
   @apply flex items-center;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
