@@ -1,7 +1,7 @@
 import React from "react";
-import Dawnload from "./Dawnload";
-import Explore from "./Explore";
-import Suggested from "./Suggested";
+import Explore from "./ExploreComponents/Explore";
+import Dawnload from "./ExploreComponents/Dawnload";
+import Suggested from "./ExploreComponents/Suggested";
 
 const ExploreArea = () => {
   return (

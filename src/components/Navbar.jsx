@@ -13,7 +13,7 @@ const Navbar = () => {
           <form className=" hidden lg:block">
             <div className="relative lg:w-96 ">
               <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none text-primary">
-                <BsSearch color="#34465d" />
+                <BsSearch color="#9fa3a3" />
               </div>
               <input
                 type="text"

@@ -12,7 +12,7 @@ const Home = () => {
           <ExploreArea />
         </div>
         {/* MIDDLE SIDE */}
-        <div className="md:col-span-6 col-span-12 w-full ">
+        <div className="md:col-span-6 col-span-12 w-full min-h-screen overflow-scroll">
           <PostsArea />
         </div>
         {/* RIGHT SIDE */}

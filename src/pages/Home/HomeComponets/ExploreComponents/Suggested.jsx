@@ -13,7 +13,7 @@ const Suggested = () => {
           />
           <p className="text-darkLight font-semibold text-sm">Sadek Hossian</p>
         </div>
-        <button className="border p-1 text-sm text-darkLight capitalize">
+        <button className="border px-2 py-1 text-sm text-darkLight capitalize rounded">
           add+
         </button>
       </div>
