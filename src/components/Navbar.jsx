@@ -6,10 +6,10 @@ import { FiBell } from "react-icons/fi";
 import { AiOutlineMessage } from "react-icons/ai";
 const Navbar = () => {
   return (
-    <header className="py-5 bg-primary">
+    <header className="md:py-3 py-5 bg-primary">
       <div className="container">
         <nav className="flex items-center justify-between gap-5">
-          <h1 className="text-light font-bold text-xl uppercase">Logo</h1>
+          <img src="images/Logo.svg" alt="Appifylab" />
           <form className=" hidden lg:block">
             <div className="relative lg:w-96 ">
               <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none text-primary">
@@ -24,7 +24,7 @@ const Navbar = () => {
             </div>
           </form>
           <div className="icons ">
-            <ul className="flex items-center justify-between lg:gap-10 gap-5">
+            <ul className="flex justify-between lg:gap-10 gap-5">
               <li>
                 <a
                   className="text-light transition-colors duration-200 hover:text-light"
@@ -70,7 +70,7 @@ const Navbar = () => {
                   <span className="text-light transition-colors duration-200 hover:text-secondary">
                     <BiUserCircle size="24" />
                   </span>
-                  <span className="text-light lg:block hidden">
+                  <span className="text-light lg:block hidden text-sm">
                     Adnan Chowdhury
                   </span>
                   <span className="text-light transition-colors duration-200 hover:text-secondary lg:block hidden">
