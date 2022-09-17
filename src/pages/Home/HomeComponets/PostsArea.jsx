@@ -1,4 +1,5 @@
 import React from "react";
+import Post from "./Post/Post";
 import CreatePost from "./PostsComponents/CreatePost";
 import PostType from "./PostsComponents/PostType";
 import Stories from "./PostsComponents/Stories";
@@ -9,6 +10,7 @@ const PostsArea = () => {
       <Stories />
       <CreatePost />
       <PostType />
+      <Post />
     </div>
   );
 };

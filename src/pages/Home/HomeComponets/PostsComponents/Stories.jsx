@@ -24,7 +24,7 @@ const Stories = () => {
       <div className=" w-1/3 md:w-1/4">
         <div className="rounded-md bg-[#717171] flex  flex-col relative overflow-hidden">
           <span className="absolute right-2 top-2 ">
-            <FaUserCircle color="#e1e1e1" size="24" />
+            <FaUserCircle color="#e1e1e1" size="28" />
           </span>
           <img
             src="images/adnanStory.jpg"

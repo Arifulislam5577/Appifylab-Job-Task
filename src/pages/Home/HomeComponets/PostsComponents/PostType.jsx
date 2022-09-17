@@ -7,7 +7,7 @@ const PostType = () => {
         public post
       </button>
       <button className="text-sm text-darkLight capitalize font-medium">
-        firend post
+        friend post
       </button>
     </div>
   );
