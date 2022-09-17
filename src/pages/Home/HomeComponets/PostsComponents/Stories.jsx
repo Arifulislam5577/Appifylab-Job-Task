@@ -4,7 +4,7 @@ import { FaUserCircle } from "react-icons/fa";
 const Stories = () => {
   return (
     <div className="flex items-center gap-3">
-      <div className="h-52 w-1/3 md:w-1/4">
+      <div className=" w-1/3 md:w-1/4">
         <div className="addStory rounded-md  px-5 py-2   overflow-hidden bg-[#717171] relative">
           <img
             src="images/story.png"
@@ -21,15 +21,15 @@ const Stories = () => {
           </div>
         </div>
       </div>
-      <div className="h-52 w-1/3 md:w-1/4">
-        <div className="rounded-md bg-[#717171] flex  flex-col relative">
+      <div className=" w-1/3 md:w-1/4">
+        <div className="rounded-md bg-[#717171] flex  flex-col relative overflow-hidden">
           <span className="absolute right-2 top-2 ">
             <FaUserCircle color="#e1e1e1" size="24" />
           </span>
           <img
             src="images/adnanStory.jpg"
             alt="story"
-            className="rounded-xl  h-36 w-full object-cover"
+            className="  h-36 w-full object-cover"
           />
           <p className="text-xs my-2 text-center text-light ">
             Adnan Chowdhury
