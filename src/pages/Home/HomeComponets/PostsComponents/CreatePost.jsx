@@ -20,15 +20,15 @@ const CreatePost = () => {
         </form>
       </div>
       <div className="mt-3 flex items-center justify-between">
-        <button className="flex gap-2 items-center text-sm text-darkLight capitalize">
+        <button className="flex gap-2 items-center text-xs md:text-sm text-darkLight capitalize">
           <BsCircleHalf />
           <span>background</span>
         </button>
-        <button className="flex gap-2 items-center text-sm text-darkLight capitalize">
+        <button className="flex gap-2 items-center text-xs md:text-sm text-darkLight capitalize">
           <FaCameraRetro />
           <span>photo/video</span>
         </button>
-        <button className="flex gap-2 items-center text-sm text-darkLight capitalize">
+        <button className="flex gap-2 items-center text-xs md:text-sm text-darkLight capitalize">
           <BsEmojiSmile />
           <span>feeling/activity</span>
         </button>
