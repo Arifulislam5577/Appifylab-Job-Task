@@ -8,8 +8,8 @@ const Reaction = ({ reactionName }) => {
       <button className="flex gap-1 items-center capitalize text-sm text-darkLight">
         {reactionName === "love" ? (
           <>
-            <span>
-              <FaHeart color="red" />
+            <span className="h-5 w-5 bg-red-600 rounded-full flex items-center justify-center">
+              <FaHeart color="white" size="12" />
             </span>
             <span className="font-semibold">Love</span>
           </>

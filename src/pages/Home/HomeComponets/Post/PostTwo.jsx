@@ -23,8 +23,8 @@ const PostTwo = () => {
         </div>
       </div>
       <div className="flex items-center gap-2 my-2">
-        <span>
-          <FaHeart color="red" />
+        <span className="h-5 w-5 bg-red-600 rounded-full flex items-center justify-center">
+          <FaHeart color="white" size="12" />
         </span>
         <p className="text-darkLight text-sm capitalize">you</p>
       </div>

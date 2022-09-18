@@ -1,5 +1,7 @@
 import React from "react";
 import PostOne from "./Post/PostOne";
+import PostThree from "./Post/PostThree";
+import PostFour from "./Post/PostFour";
 import PostTwo from "./Post/PostTwo";
 import CreatePost from "./PostsComponents/CreatePost";
 import PostType from "./PostsComponents/PostType";
@@ -13,6 +15,8 @@ const PostsArea = () => {
       <PostType />
       <PostOne />
       <PostTwo />
+      <PostThree />
+      <PostFour />
     </div>
   );
 };

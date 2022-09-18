@@ -12,14 +12,23 @@ import {
 } from "react-icons/bs";
 
 const PostUser = (props) => {
-  const { username, postTime, feelings, group } = props;
+  const { username, postTime, feelings, group, userImg } = props;
   const [showDropDown, setShowDropDown] = useState(false);
   return (
     <div className="flex items-center justify-between">
       <div className="user flex items-center gap-3">
-        <span>
-          <FaUserCircle color="#e1e1e1" size="40" />
-        </span>
+        {userImg ? (
+          <img
+            src="images/user-1.jpg"
+            alt="user"
+            className="h-10 w-10 rounded-full"
+          />
+        ) : (
+          <span>
+            <FaUserCircle color="#e1e1e1" size="40" />
+          </span>
+        )}
+
         <div>
           <div className="flex items-center gap-1">
             <p className="text-xs text-darkLight font-semibold capitalize">
