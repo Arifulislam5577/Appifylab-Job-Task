@@ -13,7 +13,9 @@ const UserComment = () => {
       <div>
         <div className=" flex items-center gap-4">
           <div className="p-2 bg-light rounded-md shadow">
-            <p className="text-sm my-1 text-darkLight">Adnan chowdhury</p>
+            <p className=" my-1  text-xs capitalize text-darkLight font-semibold">
+              Adnan chowdhury
+            </p>
             <img src="images/funny.jpg" alt="funny" className="h-24" />
           </div>
           <button className="text-darkLight">

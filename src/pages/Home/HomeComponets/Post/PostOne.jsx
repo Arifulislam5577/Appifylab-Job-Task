@@ -3,7 +3,7 @@ import Post from "./Post";
 import { FaUserCircle, FaRegTimesCircle } from "react-icons/fa";
 const PostOne = () => {
   return (
-    <Post hasComment={true}>
+    <Post hasComment={true} username="adnan chowdhury" postTime="1 hour ago">
       <div className="p-3">
         <p className="mb-2 text-darkLight text-sm">your favorite game</p>
         <ul className="flex flex-col gap-3">

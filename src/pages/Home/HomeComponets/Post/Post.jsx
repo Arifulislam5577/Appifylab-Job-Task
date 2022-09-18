@@ -4,17 +4,12 @@ import PostUser from "./PostUser";
 import Comment from "./Comment";
 import UserComment from "./UserComment";
 
-const Post = ({ children, hasComment }) => {
+const Post = ({ children, hasComment, username, postTime, reactionName }) => {
   return (
     <div className="rounded-md bg-white p-5">
-      <PostUser
-        username="annan chowdary"
-        postTime="1 hour ago"
-        feelings=""
-        group=""
-      />
+      <PostUser username={username} postTime={postTime} />
       {children}
-      <Reaction />
+      <Reaction reactionName={reactionName} />
       <Comment />
       {hasComment && <UserComment />}
     </div>
