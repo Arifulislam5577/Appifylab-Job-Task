@@ -48,7 +48,7 @@ const PostUser = (props) => {
           <IoIosArrowDown size="20" color="#444" />
         </button>
         <ul
-          className={`flex flex-col gap-3 absolute bg-white shadow right-0 top-10 w-52 p-4 ${
+          className={`flex flex-col gap-3 absolute bg-white shadow right-0 top-10 w-52 p-4 z-10 ${
             showDropDown ? "" : "hidden"
           }`}
         >
